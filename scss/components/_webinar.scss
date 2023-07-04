@@ -22,7 +22,7 @@
   &-header{
     h2{
       font-size: 2.5rem;
-      font-weight: 300;
+      font-weight: 500;
       letter-spacing: 0.1px;
       color: $color-primary;
     }
@@ -83,7 +83,7 @@
         div{
           p{
             font-size: 2.5rem;
-            font-weight: 300;
+            font-weight: 600;
             line-height: 56px;
             letter-spacing: 0.1px;
             color: $color-primary;
@@ -94,7 +94,7 @@
           }
           span{
             font-size: 1.25rem;
-            font-weight: 300;        
+            font-weight: 600;        
             line-height: 28px;
             color: $color-secondary;
           }
@@ -152,11 +152,12 @@
     width: 910px;
     margin: 0 auto;    
     letter-spacing: 0.1px; 
+    font-weight: 600;
     @media (max-width: 1200px) {
       width: 100%;        
     }
     &__title{
-      font-weight: 300;
+      font-weight: 500;
       font-size: 3.125rem;
       line-height: 70px;
       color: $color-primary;
@@ -183,7 +184,7 @@
     }
     .speakers-detail{
       p{
-        font-weight: 300;
+        font-weight: 500;
         font-size: 1.875rem;
         line-height: 42px;
         color: $color-primary;
@@ -213,6 +214,7 @@
           }
           p{
             font-size: 1rem;
+            font-weight: 600;
             line-height: 24px;
             letter-spacing: 0.1px;
             padding: 2px 0;
@@ -236,7 +238,6 @@
     &-session{
       width: 792px;
       // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
-      font-weight: 500;
       letter-spacing: 0.1px;
       background-color: $color-light;
       @media (min-width:426px) and (max-width:1440px){
@@ -275,9 +276,10 @@
               } 
             }
             a{
+              font-size: 1rem;
+              font-weight: 600;
               text-decoration: underline;
               color: $color-dark;
-              font-size: 1rem;
               @media (max-width:1024px){
                 font-size: .8rem;
                 line-height: 20px;
@@ -308,7 +310,7 @@
         color: $color-dark;
         text-decoration: underline;
         font-size: 1.25rem;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 40px;
         letter-spacing: 0.1px;
         @media (max-width:1024px){

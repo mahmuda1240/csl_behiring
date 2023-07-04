@@ -78,7 +78,7 @@ body {
 }
 .webinar-header h2 {
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.1px;
   color: #3A5CAC;
 }
@@ -147,7 +147,7 @@ body {
 }
 .webinar .date-card .webinar-details .webinar__date div p {
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 56px;
   letter-spacing: 0.1px;
   color: #3A5CAC;
@@ -160,7 +160,7 @@ body {
 }
 .webinar .date-card .webinar-details .webinar__date div span {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 28px;
   color: #61B3E4;
 }
@@ -217,6 +217,7 @@ body {
   width: 910px;
   margin: 0 auto;
   letter-spacing: 0.1px;
+  font-weight: 600;
 }
 @media (max-width: 1200px) {
   .webinar-detail {
@@ -224,7 +225,7 @@ body {
   }
 }
 .webinar-detail__title {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 3.125rem;
   line-height: 70px;
   color: #3A5CAC;
@@ -256,7 +257,7 @@ body {
   }
 }
 .webinar-detail .speakers-detail p {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.875rem;
   line-height: 42px;
   color: #3A5CAC;
@@ -292,6 +293,7 @@ body {
 }
 .webinar-detail .speakers-detail .card-body p {
   font-size: 1rem;
+  font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.1px;
   padding: 2px 0;
@@ -308,7 +310,6 @@ body {
 }
 .webinar .agenda-session {
   width: 792px;
-  font-weight: 500;
   letter-spacing: 0.1px;
   background-color: #F4F5F5;
 }
@@ -347,9 +348,10 @@ body {
   }
 }
 .webinar .agenda-session .table tbody tr a {
+  font-size: 1rem;
+  font-weight: 600;
   text-decoration: underline;
   color: #282520;
-  font-size: 1rem;
 }
 @media (max-width: 1024px) {
   .webinar .agenda-session .table tbody tr a {
@@ -377,7 +379,7 @@ body {
   color: #282520;
   text-decoration: underline;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 40px;
   letter-spacing: 0.1px;
 }
