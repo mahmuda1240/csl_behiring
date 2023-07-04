@@ -3,7 +3,7 @@
   max-width: 1440px;
   margin: 0 auto;
   background: $bg-banner;
-  color: $color-secondary;
+  color: $color-dark;
   .breadcrumb{
     &-item{
       font-family: $secondary-font;      
@@ -12,7 +12,7 @@
         color: $color-grey;
       }
       &.active{
-        color: $color-secondary;
+        color: $color-primary;
       }    
     }
   }
@@ -22,14 +22,14 @@
   &-header{
     h2{
       font-size: 2.5rem;
-      font-weight: 500;
+      font-weight: 300;
       letter-spacing: 0.1px;
-      color: $color-secondary;
+      color: $color-primary;
     }
     a{
-      background-color: $color-secondary;
+      background-color: $color-primary;
       &:hover{
-        background-color: $color-secondary;
+        background-color: $color-primary;
       }
     }
   }
@@ -74,7 +74,7 @@
       }
       .webinar__date{
         i{
-          color: $color-primary;
+          color: $color-secondary;
           font-size: 2.8rem;
           @media (max-width: 575.98px) {
             font-size: 2.5rem;            
@@ -83,8 +83,10 @@
         div{
           p{
             font-size: 2.5rem;
-            font-weight: 500;
+            font-weight: 300;
             line-height: 56px;
+            letter-spacing: 0.1px;
+            color: $color-primary;
             @media (max-width: 575.98px) {
               font-size: 1.7rem;
               line-height: 40px;
@@ -92,8 +94,9 @@
           }
           span{
             font-size: 1.25rem;
-            font-weight: 500;        
+            font-weight: 300;        
             line-height: 28px;
+            color: $color-secondary;
           }
         }
       }
@@ -110,7 +113,7 @@
         }
         a{
           text-decoration: underline;
-          color: $color-secondary;
+          color: $color-dark;
           font-weight: 400;
         }
       }
@@ -121,10 +124,16 @@
           line-height: 22px;   
           font-size: 1rem;
           padding-top: 20px;
+          background-color: $color-secondary;
           @media (max-width: 575.98px) {
             font-size: .8rem;
             line-height: 20px;
           }
+        }
+      }
+      .intelligent-buttons{
+        .btn{
+          background-color: $color-secondary;
         }
       }
       @media (max-width: 575.98px) {
@@ -147,9 +156,10 @@
       width: 100%;        
     }
     &__title{
-      font-weight: 500;
+      font-weight: 300;
       font-size: 3.125rem;
       line-height: 70px;
+      color: $color-primary;
       @media (max-width: 1200px) {
         font-size: 1.8rem;
         line-height: 35px;        
@@ -173,9 +183,10 @@
     }
     .speakers-detail{
       p{
-        font-weight: 500;
+        font-weight: 300;
         font-size: 1.875rem;
         line-height: 42px;
+        color: $color-primary;
       }
       .card{
         width: 208.73px;
@@ -192,24 +203,27 @@
           height: 163.13px;
         }
         &-body{
+          background-color: $color-light;
           h5{
-            font-weight: 500;
+            font-weight: 600;
             font-size: 1.125rem;
             line-height: 24px;
-            letter-spacing: 0.1px;            
+            letter-spacing: 0.1px;   
+            color: $color-primary;         
           }
           p{
             font-size: 1rem;
             line-height: 24px;
             letter-spacing: 0.1px;
             padding: 2px 0;
+            color: $color-dark;
             @media (max-width: 1200px) {
               padding: 0px 0px;        
             } 
           }
           a{
             text-decoration: underline;
-            color: $color-secondary;
+            color: $color-dark;
           }
         }
       }
@@ -221,9 +235,10 @@
   .agenda{
     &-session{
       width: 792px;
-      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+      // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
       font-weight: 500;
       letter-spacing: 0.1px;
+      background-color: $color-light;
       @media (min-width:426px) and (max-width:1440px){
         width: 50%;
       }
@@ -231,11 +246,10 @@
         padding: 0;
       }
       .table{
-        color: $color-secondary;
         thead{
           tr{
             th{      
-              font-weight: 500;                
+              font-weight: 600;                
               font-size: 1.25rem;
               line-height: 28px;  
             }
@@ -244,17 +258,17 @@
         tbody{
           tr{
             h5{
-              font-weight: 400;
+              font-weight: 600;
               font-size: 1.125rem;
               line-height: 28px;
               margin-top: 12px;
               @media (max-width:1024px){
                 font-size: 1.1rem;
                 line-height: 28px;
-
               } 
             }
             p{
+              font-weight: 600;
               @media (max-width:1024px){
                 font-size: .8rem;
                 line-height: 20px;
@@ -262,7 +276,7 @@
             }
             a{
               text-decoration: underline;
-              color: $color-secondary;
+              color: $color-dark;
               font-size: 1rem;
               @media (max-width:1024px){
                 font-size: .8rem;
@@ -277,19 +291,21 @@
       p,i{        
         font-size: 1.875rem;
         line-height: 42px;        
+        color: $color-primary;
       }
     }
     
     &-downloads{
-      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+      // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
       width: calc(1440px - 950px);
       height: auto !important;
+      background-color: $color-light;
       @media (min-width:426px) and (max-width:1440px){
         width: 45%;
       }
       a{
         display: block;
-        color: $color-secondary;
+        color: $color-dark;
         text-decoration: underline;
         font-size: 1.25rem;
         font-weight: 400;

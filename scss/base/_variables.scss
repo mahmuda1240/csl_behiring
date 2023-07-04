@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+@font-face {
+  font-family: Museo sans;
+  src: url(../../assets/fonts/MuseoSans-100.otf);
+}
 // fonts
-$primary-font: 'Readex Pro', sans-serif;
+$primary-font: Museo sans;
 $secondary-font: "Roboto", sans-serif;
 
 //color
-$color-primary: #F8171F;
-$color-secondary: #282520;
+$color-primary: #3A5CAC;
+$color-secondary: #61B3E4;
+$color-dark: #282520;
 $color-grey: #7B809A;
+$color-light:#F4F5F5; 
 $color-white: #ffffff;
 $color-black: #000000;
 
 //background
-$bg-banner: #ECEAE5;
+$bg-banner: url(../../assets/image/header_banner.png);
 $bg-white: #ffffff;
 
 // shadow

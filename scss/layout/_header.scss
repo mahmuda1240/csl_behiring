@@ -16,7 +16,7 @@
 //   color: $color-primary !important;
 // }
 .header{
-  color: $color-secondary;
+  color: $color-dark;
   max-width: 1440px;
   margin: 0 auto;
   .navbar-brand{
@@ -27,7 +27,7 @@
     }
   }
   .nav-link{
-    color: $color-secondary;
+    color: $color-dark;
     font-family: $secondary-font;
     font-size: 1rem;
     
